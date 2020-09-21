@@ -1,21 +1,26 @@
 @import "bootstrap";
 
+
 .bg-img{
   height: 100vh;
-  background-image: url(image_path("osen-listia-fon-derevo-colorful-wood-background-autumn-le-32.jpg"));
-  background-size: cover ;
-  color: ivory;
+  background: #006CFF;
+  color: #006CFF;
   text-align: center;
 }
 a{
   text-decoration: none;
-  color: ivory;
+  color:  #EBEFF5;
   font-size: 26px;
 }
+a:hover{
+  color: #61dea4;
+
+}
 .jumbotron{
-  background-color: rgba(9, 121, 117, 0.5);
-  -webkit-box-shadow: -10px 10px 10px -1px rgba(9, 121, 117, 0.3);
-  -moz-box-shadow: -10px 10px 10px -1px rgba(9, 121, 117, 0.3);
-  box-shadow: -10px 10px 10px -1px rgba(9, 121, 117, 0.3);
+  background: #EBEFF5;
+}
+.header_todo_list{
+  background: #006CFF;
+  color:  #EBEFF5;
 }
 
